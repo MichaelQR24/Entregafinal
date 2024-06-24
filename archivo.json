@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Asus TUF Gaming",
+        "precio": 1500,
+        "imagen": "asus-tuf.jpg",
+        "categoria": "laptops-gamer"
+    },
+    {
+        "id": 2,
+        "nombre": "HP Victus Gaming",
+        "precio": 1700,
+        "imagen": "hp-victus.jpg",
+        "categoria": "laptops-gamer"
+    },
+    {
+        "id": 3,
+        "nombre": "Dell Alienware",
+        "precio": 2500,
+        "imagen": "dell-alienware.jpg",
+        "categoria": "laptops-gamer"
+    }
+]

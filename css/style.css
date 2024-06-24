@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+}
+button {
+    background-color: #1d19f1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+button:hover {
+    background-color: #5733da;
+}
+.hidden {
+    display: none;
+}
+#catalogoDiv, #comprarDiv {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#productosCatalogo p {
+    margin: 10px 0;
+}
+#output {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
