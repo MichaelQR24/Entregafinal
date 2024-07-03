@@ -19,7 +19,19 @@
         "precio": 2500,
         "imagen": "assets/dell alienware.jpeg",
         "categoria": "dell-alienware"
+    },
+    {
+        "id": 4,
+        "nombre": "Acer Nitro 5",
+        "precio": 2200,
+        "imagen": "assets/acer nitro 5.jpg",
+        "categoria": "acer-nitro-5"
+    },
+    {
+        "id": 5,
+        "nombre": "MSI Raider G66",
+        "precio": 2800,
+        "imagen": "assets/msi raider ge66.jpeg",
+        "categoria": "msi-raider-ge66"
     }
-    
-    
 ]
