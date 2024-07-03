@@ -7,35 +7,43 @@
     <title>Ecommerce de Laptops Gamer</title>
 </head>
 <body>
-    <h1>Bienvenido a nuestro ecommerce de laptops gamer</h1>
-    <button id="verCatalogoBtn">Ver Catálogo</button>
-    <button id="comprarProductoBtn">Comprar Laptop</button>
-    <button id="verCarritoBtn">Ver Carrito</button>
-    <button id="vaciarCarritoBtn">Vaciar Carrito</button>
-
-
-    <div id="catalogoDiv" class="hidden">
-        <h2>Catálogo</h2>
-        <select id="categoriaSelect">
-            <option value="asus-tuf">Asus TUF</option>
-            <option value="hp-victus">HP Victus</option>
-            <option value="dell-alienware">Dell Alienware</option>
-        </select>
-        <button id="filtrarBtn">Filtrar</button>
-        <div id="productosCatalogo"></div>
-    </div>
-
-    <div id="comprarDiv" class="hidden">
-        <h2>Comprar Laptop</h2>
-        <select id="productoSelect">
-            <option value="asus-tuf">Asus TUF</option>
-            <option value="hp-victus">HP Victus</option>
-            <option value="dell-alienware">Dell Alienware</option>
-        </select>        
-        <button id="comprarBtn">Comprar</button>
-    </div>
+    <header>
+        <h1>Bienvenido a nuestro ecommerce de laptops gamer</h1>
+    </header>
     
-    <div id="output"></div>
+    <main>
+        <section>
+            <button id="verCatalogoBtn">Ver Catálogo</button>
+            <button id="comprarProductoBtn">Comprar Laptop</button>
+            <button id="verCarritoBtn">Ver Carrito</button>
+            <button id="vaciarCarritoBtn">Vaciar Carrito</button>
+        </section>
+
+        <section id="catalogoDiv" class="hidden">
+            <h2>Catálogo</h2>
+            <label for="categoriaSelect">Categoría:</label>
+            <select id="categoriaSelect">
+                <option value="asus-tuf">Asus TUF</option>
+                <option value="hp-victus">HP Victus</option>
+                <option value="dell-alienware">Dell Alienware</option>
+            </select>
+            <button id="filtrarBtn">Filtrar</button>
+            <div id="productosCatalogo"></div>
+        </section>
+
+        <section id="comprarDiv" class="hidden">
+            <h2>Comprar Laptop</h2>
+            <label for="productoSelect">Producto:</label>
+            <select id="productoSelect">
+                <option value="asus-tuf">Asus TUF</option>
+                <option value="hp-victus">HP Victus</option>
+                <option value="dell-alienware">Dell Alienware</option>
+            </select>        
+            <button id="comprarBtn">Comprar</button>
+        </section>
+    
+        <div id="output"></div>
+    </main>
     
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./js/main.js"></script>
